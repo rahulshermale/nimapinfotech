@@ -26,11 +26,17 @@ POST  :   http://localhost:8080/api/categories
 	Add Categories
  	{
         "id": 1,
-        "name": "Politicals"
+        "name": "Electronics",
+	""products
        
     }
 
-
+{
+    "id": 36,
+    "name": "Electronics",
+    "products": [  
+    ]
+  }
 
 
 PUT   : http://localhost:8080/api/categories/26
@@ -41,6 +47,7 @@ PUT   : http://localhost:8080/api/categories/26
         "products": [           
         ]
 }
+    
     
 
 
@@ -94,10 +101,10 @@ PUT : http://localhost:8080/api/products/24
 
 {
 "id": 10,
-"name": ".....................",
+"name": "AC",
 "price": 99,
 "category": {
-    "id": 16
+    "id": 17
     
 }
 }
